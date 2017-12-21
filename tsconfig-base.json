@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true
+  },
+  "include": ["./src/**/*"]
+}

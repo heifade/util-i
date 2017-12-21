@@ -11,7 +11,7 @@ export function isEmpty(value: any) {
     return value.length === 0;
   }
   if (isObject(value)) {
-    return Reflect.ownKeys(value).length === 0;
+    return Object.getOwnPropertyNames(value).length === 0;
   }
   if (isString(value)) {
     return value === "";
