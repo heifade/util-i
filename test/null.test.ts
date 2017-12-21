@@ -3,10 +3,10 @@ import { isNull, isEmpty } from "../src/index";
 import "mocha";
 
 describe("null", function() {
-  before(async () => {});
-  after(async () => {});
+  before(() => {});
+  after(() => {});
 
-  it("isNull", async () => {
+  it("isNull", () => {
     expect(isNull(null)).to.be.true;
     expect(isNull(undefined)).to.be.true;
 
@@ -24,7 +24,7 @@ describe("null", function() {
     expect(isNull([1])).to.be.false;
   });
 
-  it("isEmpty", async () => {
+  it("isEmpty", () => {
 
     expect(isEmpty('')).to.be.true;
     expect(isEmpty(null)).to.be.true;
