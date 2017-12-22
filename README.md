@@ -1,5 +1,4 @@
 util-i
-=======
 
 [![NPM version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][npm-url]
