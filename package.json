@@ -45,7 +45,8 @@
     "ts-node": "^3.3.0",
     "typedoc": "^0.9.0",
     "typedoc-format": "^1.0.0-beta1",
-    "typescript": "^2.5.3"
+    "typescript": "^2.5.3",
+    "util": "^0.10.3"
   },
   "dependencies": {
     "fs-extra": "^5.0.0"
