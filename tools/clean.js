@@ -9,4 +9,6 @@ function deletePath(path) {
 
 
 deletePath("./es");
+deletePath("./lib");
 deletePath("./docs");
+deletePath("./.nyc_output");
