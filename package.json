@@ -1,6 +1,6 @@
 {
   "name": "util-i",
-  "version": "1.0.0-beta3",
+  "version": "1.0.0-beta4",
   "description": "util tools",
   "main": "./es/index.js",
   "module": "./es/index.js",
@@ -49,6 +49,7 @@
     "util": "^0.10.3"
   },
   "dependencies": {
-    "fs-extra": "^5.0.0"
+    "fs-extra": "^5.0.0",
+    "fs-i": "^1.0.3"
   }
 }

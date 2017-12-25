@@ -1,14 +1,6 @@
-// 删除dist目录
+let fs = require("fs-i");
 
-let fs = require("fs-extra");
-
-function deletePath(path) {
-  fs.emptyDirSync(path);
-  fs.rmdirSync(path);
-}
-
-
-deletePath("./es");
-deletePath("./lib");
-deletePath("./docs");
-deletePath("./.nyc_output");
+fs.rmdir("./es");
+fs.rmdir("./lib");
+fs.rmdir("./docs");
+fs.rmdir("./.nyc_output");
