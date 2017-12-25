@@ -1,6 +1,6 @@
 {
   "name": "util-i",
-  "version": "1.0.0-beta5",
+  "version": "1.0.2",
   "description": "util tools",
   "main": "./es/index.js",
   "module": "./es/index.js",
