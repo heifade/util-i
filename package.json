@@ -1,6 +1,6 @@
 {
   "name": "util-i",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "util tools",
   "main": "./es/index.js",
   "module": "./es/index.js",
@@ -10,26 +10,8 @@
     "lib"
   ],
   "scripts": {
-    "clean": "node ./tools/clean.js",
-    "docs": "typedoc --out docs src --module commonjs --hideGenerator && node ./tools/formatDocs.js",
-    "build-es6": "tsc -p tsconfig-es6.json",
-    "build-amd": "tsc -p tsconfig-amd.json",
-    "build": "npm run clean && npm run build-es6 && npm run build-amd && npm run docs",
-    "test": "nyc mocha -t 5000",
-    "test-nyc": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
-  },
-  "nyc": {
-    "include": [
-      "src/**/*.ts"
-    ],
-    "extension": [
-      ".ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ],
-    "sourceMap": true,
-    "instrument": true
+    "build": "pcreate build",
+    "test": "pcreate test"
   },
   "keywords": [],
   "author": "",
@@ -38,13 +20,7 @@
     "@types/chai": "^4.0.6",
     "@types/mocha": "^2.2.44",
     "chai": "^4.1.2",
-    "coveralls": "^3.0.0",
     "mocha": "^4.0.1",
-    "nyc": "^11.3.0",
-    "source-map-support": "^0.5.0",
-    "ts-node": "^3.3.0",
-    "typedoc": "^0.9.0",
-    "typedoc-format": "^1.0.2",
     "typescript": "^2.5.3",
     "util": "^0.10.3"
   },
