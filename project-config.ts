@@ -7,7 +7,7 @@ let projectConfig: ProjectConfigModel = {
     {
       outDir: "./es/",
       module: "ESNext",
-      target: "ESNext",
+      target: "ES5",
       declaration: true,
     },
     {
