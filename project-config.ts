@@ -8,15 +8,18 @@ let projectConfig: ProjectConfigModel = {
       outDir: "./es/",
       module: "ESNext",
       target: "ESNext",
+      declaration: true,
     },
     {
       outDir: "./lib/",
       module: "amd",
       target: "ES5",
+      declaration: true,
     }
   ],
   command: false,
   documents: true,
+  
   sourceInclude: ["./src/**/*"]
 };
 
