@@ -1,6 +1,6 @@
 {
   "name": "util-i",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "util tools",
   "main": "./es/index.js",
   "module": "./es/index.js",
@@ -9,6 +9,10 @@
     "es",
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heifade/util-i.git"
+  },
   "scripts": {
     "build": "pcreate build",
     "test": "pcreate test"
