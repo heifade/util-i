@@ -1,6 +1,6 @@
 {
   "name": "util-i",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "util tools",
   "main": "./es/index.js",
   "module": "./es/index.js",
@@ -21,12 +21,12 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/chai": "^4.0.6",
-    "@types/mocha": "^2.2.44",
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^2.2.46",
     "chai": "^4.1.2",
-    "mocha": "^4.0.1",
-    "util": "^0.10.3",
-    "pcreate-config": "^1.0.11"
+    "mocha": "^4.1.0",
+    "pcreate-config": "^1.0.15",
+    "util": "^0.10.3"
   },
   "dependencies": {
     "@types/node": "^9.3.0"
